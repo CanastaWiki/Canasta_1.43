@@ -271,7 +271,7 @@ extensions:
 - SemanticMediaWiki:
     repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
     commit: ac5917cd87dc776b39342ce90791a42f4ca7dc2a # v. 4.0.0-beta3
-    persistent-directories:
+    persistent directories:
     - config
     additional steps:
     - composer update
@@ -362,7 +362,7 @@ extensions:
     commit: e072d08f58ea013a40f27dd95ef1eef8bca364c2
 - Widgets:
     commit: 50da5c66923ec5169f5606cc1d76f38f0b759d71
-    persistent-directories:
+    persistent directories:
     - compiled_templates
     additional steps:
     - composer update
