@@ -1,0 +1,399 @@
+---
+extensions:
+- AbuseFilter:
+    bundled: true
+    additional steps:
+    - composer update
+- AdminLinks:
+    branch: master
+    commit: 4a66a151e3e6bff64b26efbf4491833549b025e5 # v. 0.6.3
+- AdvancedSearch:
+    commit: d879c5105bbdc574d6c7e95fa4cd20d7b6de6dcd
+- AJAXPoll:
+    commit: fbfd07ef43063e806026d5bd3f95493e2b189378
+- AntiSpoof:
+    commit: a010c2d53618aa99b8b8a32d9665de9000e53188
+    additional steps:
+    - composer update
+- ApprovedRevs:
+    commit: 3bd3e148da3bbfcea0ffd10ed18c8671263fb77b # v. 2.1.1
+- Arrays:
+    commit: 96357a3708ec36ae4b6deebb63991c86268d0e2a
+- AWS:
+    repository: https://github.com/edwardspec/mediawiki-aws-s3
+    commit: f85bb579b57f22175ff0cbca7664ad26cacdbb58 # v. 0.13.1
+- BetaFeatures:
+    commit: b6d1cdf01dea38eabc69f55ae1d1ccb851080750
+- BootstrapComponents:
+    repository: https://github.com/oetterer/BootstrapComponents
+    commit: bec7dd3e864d61df620008143ebe879de70d5f0f # v. 5.2.1
+    additional steps:
+    - composer update
+- BreadCrumbs2:
+    commit: 28e82570da8d7e9e8a422a9a3f55392cf6166e0f
+- Cargo:
+    branch: master
+    commit: b31b62b256a02e156dd3c4a63ca739b0e238e939 # v. 3.7
+- CategoryTree:
+    bundled: true
+- CharInsert:
+    commit: ee7b17910ece1ebaf6ad53857926d797b0ff374d
+- CheckUser:
+    commit: 1de925985d764b50f80c08bd473a23312435bdae
+- CirrusSearch:
+    commit: 3461fc8daae0f1d8e555d1d1da21d6a76d836b3b
+    additional steps:
+    - composer update
+- Cite:
+    bundled: true
+- CiteThisPage:
+    bundled: true
+- CodeEditor:
+    bundled: true
+- CodeMirror:
+    commit: da01975ea050fe20ea80ff6728bbe0a7a2090c78
+- Collection:
+    commit: f5f15ade19be8d5f07518d335be9a7047b6b7437
+- CommentStreams:
+    commit: 23e8579bcbd4e7263836f2105d15fa7ef431f98e
+- CommonsMetadata:
+    commit: 133fd7511eff158456e194315e5f477166ef3206
+- ConfirmAccount:
+    commit: dc1a1db096f4ecadfe178fccd26a1b7a854254ad
+- ConfirmEdit:
+    bundled: true
+- ContactPage:
+    commit: 733c519feeafdf296b288500f317512262ffecb7
+- ContributionScores:
+    commit: 6370730e6cec3ccff17d2ea988dd414fa87f1e16
+- CookieWarning:
+    commit: f697459d94ac1aa8c9d3e417a9b0e04f92640447
+- DataTransfer:
+    branch: master
+    commit: 2693332aeb146681e54bb1131a3330235f14f742 # v. 1.6.2
+    additional steps:
+    - composer update
+- DeleteBatch:
+    commit: 55ec7006ba073f16942ffa91620485b8f6cfc241
+- Description2:
+    commit: 50e2aef88053be12a66b617657c414a665e2d38e
+- Disambiguator:
+    commit: 56a4738b35d331fe3d3f985b9e3d1c084ab75ed9
+- DiscussionTools:
+    bundled: true
+- DismissableSiteNotice:
+    commit: caca5bf6baaf5b85487a5b822e42c6ee74aa0e9d
+- DisplayTitle:
+    commit: 920768a8efb9f316aed1f134fc07aa153d612eb7
+- Echo:
+    bundled: true
+- EditAccount:
+    commit: 19ef898ce9cecc34dfed190d2d8628bbeb863f89
+- Editcount:
+    commit: 84a4c08a26605ab8c89beb77d6f7bd6fc3e97ec6
+- Elastica:
+    commit: 3f2c3cad516c875091c3536d8d17b0297e8d2d87
+    additional steps:
+    - composer update
+- EmailAuthorization:
+    commit: 69ca5f8dfa9217c542bfd34ee9736dc8e04d0903
+    additional steps:
+    - git submodule update
+- EmbedVideo:
+    repository: https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
+    commit: 947b1c8832f65ebcad9ce4c70f7696f55d06173b # v. 3.4.2
+- EventLogging:
+    commit: 411fc0d6c8538b0064e0d75b5302534c7f28ac50
+- EventStreamConfig:
+    commit: 0989b79f4663360f5b1173441e1fc562b3c63b62
+- ExternalData:
+    branch: master
+    commit: bee4371617089195e3885a3deef16c8fcb8de4fb
+- FlexDiagrams:
+    branch: master
+    commit: 183efb105deda9d228041b976cd36c50d3c63628 # v. 0.7
+- Gadgets:
+    bundled: true
+- GlobalNotice:
+    commit: 0cc66c56ebcfdebc0d407d82ae584a5426523d9f
+- GoogleAnalyticsMetrics:
+    commit: 441511d7c848f8b59a08dc160fb1062f67778032
+    additional steps:
+    - composer update
+- GoogleDocCreator:
+    commit: 9db568cb4113ab99919fcb2e107e3428212f6ee1
+- GTag:
+    repository: https://github.com/SkizNet/mediawiki-GTag
+    commit: 90d87ea56777b2be3ab5f718b0b6644623a24d04
+- HeaderFooter:
+    commit: b5fa1769548ab6452b86c6ea0fa28197ecf11164
+- HeaderTabs:
+    commit: bcb060829c5d643e746921641ea5dbd5a84f35f4
+- HTMLTags:
+    commit: 3dc5caa3d586756f39abfef49053136267eb68ef
+- ImageMap:
+    bundled: true
+- InlineComments:
+    branch: master
+    commit: 2018469f4fa1c21fbfb318515285a55edba92636 # v. 1.0
+- InputBox:
+    bundled: true
+- Interwiki:
+    bundled: true
+- JWTAuth:
+    commit: 4ee91b1d77fe0ad509a5c5665cbbb354856f0ab3
+- LabeledSectionTransclusion:
+    commit: 68ef6ea74b39e37278eadd5ab9a1ac62bd85de82
+- LDAPAuthentication2:
+    commit: 808036a082e429c54799b0bbce89cba74a74157f
+- LDAPAuthorization:
+    commit: 05a9d007c24429cfee90337077c9d3276edc73ad
+- LDAPProvider:
+    commit: c8a4cad128f7aa898c8660648a7da1aef571765d
+- Lingo:
+    commit: 27893843b7529951deed9a3ef9fc25c778934eea
+- LinkSuggest:
+    commit: 145247abb87a61b4c19523ce62de37161780bd14
+- LinkTarget:
+    commit: 83007f7c813204e769aecdfe15abf61cccb0c43b
+- Linter:
+    bundled: true
+- LockAuthor:
+    commit: 29fc3cad3e6b9c47c04161a03d758ff355ca5723
+- Lockdown:
+    commit: 977cfa553b8f40f731b9b86f7dcc18cf181bd854
+- LoginNotify:
+    bundled: true
+- LookupUser:
+    commit: d0198361db26d3c6c69ce4cff52c85edae79bbe8
+- Loops:
+    commit: dee5dd131110a73ebcb3c09cad9eec0e130f9315
+- MagicNoCache:
+    commit: 7315339c97c0eb7d528a8f6b14d055812a85fdb2
+- Maps:
+    repository: https://github.com/ProfessionalWiki/Maps
+    commit: c20a56b4a188d36f1e312fa4759b81d8d12fce3d # v. 10.3.0
+    additional steps:
+    - composer update
+- MassMessage:
+    commit: 798cbd5d4e1099aeba97c2c7e1b05fdb01882292
+- MassMessageEmail:
+    commit: b2d7a0441ce18e7d63532f4e46ac99a99c27718e
+    additional steps:
+    - composer update
+- Math:
+    bundled: true
+- MediaUploader:
+    commit: b0f6d0f231891daee3da7fa39045640fa50fa4d2
+- Mermaid:
+    repository: https://github.com/SemanticMediaWiki/Mermaid
+    commit: fd792683fef3c84a7cdd56f8f474c4da0dd630f2 # v. 3.1.0
+- MintyDocs:
+    commit: 5f1f9c75a66b26628a0521f5d81ab49db372251a
+- MobileFrontend:
+    commit: 52aa1f0d683d72935fc737b0e7bb0ea906289701
+- MsUpload:
+    commit: 039b6aece443d6d030e187c112ab2520a65915b2
+- MultimediaViewer:
+    bundled: true
+- MyVariables:
+    commit: 28e21be0ff6fdc1060f5e83a130faa8406d09b0f
+- NewUserMessage:
+    commit: cdc2bc20557ca97387a0be7713fcc550efd9edfe
+- Nuke:
+    bundled: true
+- NumerAlpha:
+    commit: 27660326ccaf44bbc2942e40a24e4433faaec1a7
+- OATHAuth:
+    bundled: true
+    additional steps:
+    - composer update
+- OAuth:
+    commit: 0d466bcb3c0146dedc44ac8dce2fea7f0d749f31
+- OpenGraphMeta:
+    commit: cb990fcea3b7827f02bcc328e367a7b2387a32a3
+- OpenIDConnect:
+    commit: 5d9cdd7690ccbb3cac552fb85ff4a8742ee8b145
+    additional steps:
+    - composer update
+- PageExchange:
+    branch: master
+    commit: eaca8502623f3d80354cbe56571840b215f5ab67 # v. 0.8
+- PageForms:
+    branch: master
+    commit: 4ac28291df76dd5544d232d2988f69e61c86af3e # v. 5.9
+- PageImages:
+    bundled: true
+- PageSchemas:
+    branch: master
+    commit: 9fe81a9904fa51adcd50c85c3ddb214ae63ce9dc # v. 1.0
+- ParserFunctions:
+    bundled: true
+- PdfHandler:
+    bundled: true
+- PluggableAuth:
+    commit: 4ef6f74c067f9ff81b78fd64b9780a82ccce97f3
+- Poem:
+    bundled: true
+- Popups:
+    commit: 7d5a9c8a62e9f0152c6c73b6d286c65bb526a291
+- QuickInstantCommons:
+    commit: 3330ce1efd4a8143ee2525ad9f48654dd84c826c
+- RegularTooltips:
+    commit: e52d009f1a01575de2abebf802c6e97b24587d9a
+- ReplaceText:
+    bundled: true
+- RevisionSlider:
+    commit: ae8986e4e67a17a8def5168645ee9afa6e6890df
+- RottenLinks:
+    repository: https://github.com/miraheze/RottenLinks
+    commit: a2019146ef7fad359ac0503bb885f651d90272cb # v. 2.1.0
+- SandboxLink:
+    commit: 3eae08b2f34e84399e154cc78973c69d4f5c7811
+- SaveSpinner:
+    commit: 438ea79d4ba11cfe8a8c3599fba5c473b9760b91
+- Scribunto:
+    bundled: true
+- SecureLinkFixer:
+    bundled: true
+- SemanticCompoundQueries:
+    repository: https://github.com/SemanticMediaWiki/SemanticCompoundQueries
+    commit: bc0240ed27db8455452bd6fa161ff62d032238f6 # v. 3.0.0-beta
+- SemanticDependencyUpdater:
+    repository: https://github.com/gesinn-it/SemanticDependencyUpdater
+    commit: b2c4db817bfb31c2ad10d27aeebb955f938d7b4f # v. 3.0.3
+- SemanticDrilldown:
+    repository: https://github.com/SemanticMediaWiki/SemanticDrilldown
+    commit: ac5917cd87dc776b39342ce90791a42f4ca7dc2a # v. 4.0.0-beta3
+- SemanticExtraSpecialProperties:
+    repository: https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties
+    commit: 12c89b9c4fe024dabe294fabdef0138a09f24365 # v. 3.0.5
+- SemanticMediaWiki:
+    repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
+    commit: ac5917cd87dc776b39342ce90791a42f4ca7dc2a # v. 4.0.0-beta3
+    persistent-directories:
+    - config
+    additional steps:
+    - composer update
+- SemanticResultFormats:
+    repository: https://github.com/SemanticMediaWiki/SemanticResultFormats
+    commit: b40de8db8ef7a251e59f39abbe4d4e3b093203d2 # v. 5.0.0-alpha
+    additional steps:
+    - composer update
+- SemanticScribunto:
+    repository: https://github.com/SemanticMediaWiki/SemanticScribunto
+    commit: https://github.com/SemanticMediaWiki/SemanticScribunto # v. 2.3.2
+- SemanticWatchlist:
+    repository: https://github.com/SemanticMediaWiki/SemanticWatchlist
+    commit: 4a1ac9d79b0c00bd1fda0567cbe57a18804e54aa # v. 1.4.0-beta
+    additional steps:
+    - composer update
+- SimpleBatchUpload:
+    repository: https://github.com/ProfessionalWiki/SimpleBatchUpload
+    commit: 1e53b5b50e7fbc6c96c749bfdf3b807f62836c30 # v. 2.0.1
+- SimpleChanges:
+    commit: 024aca4c80d2a6b697f3d85e99de8e198b126999
+- SimpleMathJax:
+    repository: https://github.com/jmnote/SimpleMathJax
+    commit: 7c9de84d219d15243aa153867339ac1a9c1a22e5 # v. 0.8.4
+- SkinPerPage:
+    commit: cd94d4684782457f81517d6f2692f3af300d9242
+- SmiteSpam:
+    commit: 529ad28e2953506c7216c90abb7bd17f320fb0b5
+- SocialProfile:
+    commit: 596821355ef2022171718f41a1109da01c6e3dbc
+- SpamBlacklist:
+    bundled: true
+- SubPageList:
+    repository: https://github.com/ProfessionalWiki/SubPageList
+    commit: c016dcdb7866f20319731e6497b48fd43756505e # v. 3.0.0
+- SyntaxHighlight:
+    bundled: true
+- TemplateData:
+    bundled: true
+- TemplateSandbox:
+    commit: db217336a3e2c455c5e24303b2e793623b80a055
+- TemplateStyles:
+    commit: 31a4bd259a921e19b4857befa700e7fc0998b6d2
+    additional steps:
+    - composer update
+- TemplateWizard:
+    commit: f30e613579b90ff1b166ca08903037415f45471e
+- TextExtracts:
+    bundled: true
+- Thanks:
+    bundled: true
+- TimedMediaHandler:
+    commit: b223fe9d63409696b54511777b1e3619b1a7673b
+    additional steps:
+    - composer update
+- TitleBlacklist:
+    bundled: true
+- TitleIcon:
+    commit: 6e0b6a3ddba40c468d904d8587945092ad3f8030
+- TwoColConflict:
+    commit: 377a8f2fd7b87a89354dc08e373d4e2b6d476211
+- UniversalLanguageSelector:
+    commit: 11c95712a05fd8feee7d148c5a2b882b92984bba
+- UploadWizard:
+    commit: 0dd1f57172e82c18d7e8580c42eebe27c23e688a
+- UrlGetParameters:
+    commit: 013427509ca51a710879c8811b6f4ef04d7b2e12
+- UserFunctions:
+    commit: fe610c0a243644789afd7837b7d19a896e216822
+- UserMerge:
+    commit: f9d2664fd1af70a2b3a22a55b971c174593d38f1
+- UserPageViewTracker:
+    commit: a3009ef62873535de56e18f62d629ca3494e9d77
+- Variables:
+    commit: 81115fae09d0a219078d2a2511de83474fd2eb8f
+- VEForAll:
+    branch: master
+    commit: 33b5fa746af51e9c6c770950a197b1c17f5ee253 # v. 0.6
+- VisualEditor:
+    bundled: true
+- VoteNY:
+    commit: d1d57da0ba7418c9e7f98b659a5fa2832d790c2d
+- WatchAnalytics:
+    commit: 6bd9c6e5a1c056280e01e423aea679faf4bb0bd0
+- WhoIsWatching:
+    commit: ad0d721ab588c77678a33db304a77bd684724a1a
+- WhosOnline:
+    commit: e072d08f58ea013a40f27dd95ef1eef8bca364c2
+- Widgets:
+    commit: 50da5c66923ec5169f5606cc1d76f38f0b759d71
+    persistent-directories:
+    - compiled_templates
+    additional steps:
+    - composer update
+- WikiEditor:
+    bundled: true
+- WikiSEO:
+    commit: 86611359bfc639beb1b567d7df0edf25a0441aa0
+- WSOAuth:
+    commit: 9f25fade2bcd3fae44c3236072f5ea2eb068b75c
+    additional steps:
+    - composer update
+skins:
+- chameleon:
+    repository: https://github.com/ProfessionalWiki/chameleon
+    commit: 2db7ab4a60600a5342fdc5c62c24ea1d99c8669e # v. 4.4.2
+    additional steps:
+    - composer update
+- CologneBlue:
+    commit: 9134d2e26c9d1c8f9f4a942cbeeff3e26ed11f21
+- MinervaNeue:
+    bundled: true
+- Modern:
+    commit: 5597681b7f0423a7e71cda64929c9d60dc999b8c
+- MonoBook:
+    bundled: true
+- Pivot:
+    commit: f6b35ca2b8b07ced0e467d8b99421a41b0af3fa3
+- Refreshed:
+    commit: 2570c3ee3996cd8ca3f766131b301c33695f68e6
+- Timeless:
+    bundled: true
+- Vector:
+    bundled: true
+...
