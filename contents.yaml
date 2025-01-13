@@ -286,8 +286,6 @@ extensions:
 - SemanticWatchlist:
     repository: https://github.com/SemanticMediaWiki/SemanticWatchlist
     commit: 4a1ac9d79b0c00bd1fda0567cbe57a18804e54aa # v. 1.4.0-beta
-    additional steps:
-    - composer update
 - SimpleBatchUpload:
     repository: https://github.com/ProfessionalWiki/SimpleBatchUpload
     commit: 1e53b5b50e7fbc6c96c749bfdf3b807f62836c30 # v. 2.0.1
