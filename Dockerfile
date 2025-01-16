@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.source=https://github.com/CanastaWiki/Canasta_1.4
 COPY _sources/scripts/extensions-skins.php /tmp/
 COPY _sources/patches/* /tmp/
 COPY contents.yaml /tmp/
-RUN php /tmp/extensions-skins.php"/tmp/contents.yaml"
+RUN php /tmp/extensions-skins.php "/tmp/contents.yaml"
 
 # Default values
 ENV MW_MAINTENANCE_CIRRUSSEARCH_UPDATECONFIG=2 \
