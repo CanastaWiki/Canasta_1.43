@@ -16,3 +16,6 @@ ENV MW_MAINTENANCE_CIRRUSSEARCH_UPDATECONFIG=2 \
 RUN set -x; \
 	cd $MW_HOME/extensions \
 	&& sed -i "s/#wfLoadExtension('SemanticMediaWiki');/#enableSemantics('localhost');/g" $MW_ORIGIN_FILES/installedExtensions.txt \
+
+# Maintenance scripts for specific extensions
+COPY cirrus-search-maintenance.sh _sources/scripts/maintenance-scripts/
