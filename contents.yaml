@@ -16,6 +16,7 @@ extensions:
     additional steps:
     - composer update
 - ApprovedRevs:
+    branch: master
     commit: 3bd3e148da3bbfcea0ffd10ed18c8671263fb77b # v. 2.1.1
 - Arrays:
     commit: 96357a3708ec36ae4b6deebb63991c86268d0e2a
