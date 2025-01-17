@@ -19,3 +19,5 @@ RUN set -x; \
 
 # Maintenance scripts for specific extensions
 COPY cirrus-search-maintenance.sh _sources/scripts/maintenance-scripts/
+COPY getSMWSettings.php _sources/canasta/
+COPY smw-maintenance.sh _sources/scripts/maintenance-scripts/
