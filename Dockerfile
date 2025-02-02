@@ -10,7 +10,7 @@ RUN php /tmp/extensions-skins.php "/tmp/contents.yaml"
 
 # Default values
 ENV MW_MAINTENANCE_CIRRUSSEARCH_UPDATECONFIG=2 \
-	MW_MAINTENANCE_CIRRUSSEARCH_FORCEINDEX=2 \
+	MW_MAINTENANCE_CIRRUSSEARCH_FORCEINDEX=2
 
 # Dirty hack for Semantic MediaWiki
 RUN set -x; \
