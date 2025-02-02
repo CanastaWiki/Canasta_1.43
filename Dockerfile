@@ -3,6 +3,9 @@ FROM ghcr.io/canastawiki/canasta-base AS base
 LABEL maintainers=""
 LABEL org.opencontainers.image.source=https://github.com/CanastaWiki/Canasta_1.43
 
+RUN set -x; \
+	cd $MW_HOME
+
 COPY _sources/scripts/extensions-skins.php /tmp/
 COPY _sources/patches/* /tmp/
 COPY contents.yaml /tmp/
