@@ -51,8 +51,8 @@ jobs:
           # Date
           BDATE=$(date +%Y%m%d)
 
-          # Extract MW version from Dockerfile
-          MEDIAWIKI_VERSION=$(sed -nr 's/MW_CORE_VERSION\=([0-9\.]+)/\1/p' Dockerfile | sed "s/ \\\//" | sed "s/\t//")
+          # We don't compute the MW version here, we just hardcode it
+          MEDIAWIKI_VERSION=1.43.0
           # Extract MW major version (like 1.35)
           MEDIAWIKI_MAJOR_VERSION=${MEDIAWIKI_VERSION%.*}
 
