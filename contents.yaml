@@ -272,7 +272,7 @@ extensions:
     commit: 12c89b9c4fe024dabe294fabdef0138a09f24365 # v. 3.0.5
 - SemanticMediaWiki:
     repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
-    commit: ac5917cd87dc776b39342ce90791a42f4ca7dc2a # v. 4.0.0-beta3
+    commit: f22f7fb06a808af1beb303090663c494c7f315c2 # 5.0.0-alpha
     persistent directories:
     - config
     additional steps:
