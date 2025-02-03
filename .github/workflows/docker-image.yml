@@ -6,9 +6,9 @@ concurrency: docker_canasta_1.43_main
 
 on:
   push:
-    # Only activate for `master` branch
+    # Only activate for `main` branch
     branches:
-      - master
+      - main
     # Plus for all tags
     tags:
       - '*'
@@ -31,7 +31,7 @@ jobs:
   # The image tag pattern is:
   # for pull-requests: <MW_CORE_VERSION>-<DATE>-<PR_NUMBER>, eg: 1.35.2-20210125-25
   # for tags: <TAG>
-  # for `master` branch: latest + <MW_VERSION>-latest + <MW_CORE_VERSION>-<DATE>-<SHA>
+  # for `main` branch: latest + <MW_VERSION>-latest + <MW_CORE_VERSION>-<DATE>-<SHA>
   # <MW_CORE_VERSION> being parsed from the Dockerfile
   push:
     needs: [test]
@@ -76,13 +76,13 @@ jobs:
           # Strip "v" prefix from tag name if it's a tag
           # [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
 
-          # Use Docker `latest` tag convention if it's a master branch build
-          [ "$VERSION" == "master" ] && VERSION=latest
+          # Use Docker `latest` tag convention if it's a main branch build
+          [ "$VERSION" == "main" ] && VERSION=latest
 
           # Compose REGISTRY_TAGS variable
           REGISTRY_TAGS=$IMAGE_ID:$VERSION
 
-          # For master branch also supply an extra tag: <MW_VERSION>-latest,<MW_VERSION>-<DATE>-<SHA>
+          # For main branch also supply an extra tag: <MW_VERSION>-latest,<MW_VERSION>-<DATE>-<SHA>
           [ "$VERSION" == "latest" ] && REGISTRY_TAGS=$REGISTRY_TAGS,$IMAGE_ID:$CANASTA_VERSION,$IMAGE_ID:$MEDIAWIKI_MAJOR_VERSION-latest,$IMAGE_ID:$MEDIAWIKI_VERSION-latest,$IMAGE_ID:$MEDIAWIKI_VERSION-$BDATE-$(git rev-parse --short HEAD)
 
           echo IMAGE_ID=$IMAGE_ID
