@@ -4,7 +4,6 @@ LABEL maintainers=""
 LABEL org.opencontainers.image.source=https://github.com/CanastaWiki/Canasta_1.43
 
 COPY /etc/apache2/sites-enabled/mediawiki.conf /tmp/
-COPY $MW_HOME/maintenance/extensions-skins.php /tmp/
 COPY _sources/patches/* /tmp/
 COPY contents.yaml /tmp/
 RUN php /tmp/extensions-skins.php "/tmp/contents.yaml"
