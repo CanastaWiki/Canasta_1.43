@@ -4,6 +4,7 @@ extensions:
     bundled: true
     additional steps:
     - composer update
+    - database update
 - AdminLinks:
     branch: master
     commit: 4a66a151e3e6bff64b26efbf4491833549b025e5 # v. 0.6.3
@@ -15,9 +16,12 @@ extensions:
     commit: a010c2d53618aa99b8b8a32d9665de9000e53188
     additional steps:
     - composer update
+    - database update
 - ApprovedRevs:
     branch: master
     commit: 3bd3e148da3bbfcea0ffd10ed18c8671263fb77b # v. 2.1.1
+    additional steps:
+    - database update
 - Arrays:
     commit: 96357a3708ec36ae4b6deebb63991c86268d0e2a
 - AWS:
@@ -25,6 +29,8 @@ extensions:
     commit: f85bb579b57f22175ff0cbca7664ad26cacdbb58 # v. 0.13.1
 - BetaFeatures:
     commit: b6d1cdf01dea38eabc69f55ae1d1ccb851080750
+    additional steps:
+    - database update
 - BootstrapComponents:
     repository: https://github.com/oetterer/BootstrapComponents
     commit: bec7dd3e864d61df620008143ebe879de70d5f0f # v. 5.2.1
@@ -35,12 +41,16 @@ extensions:
 - Cargo:
     branch: master
     commit: ca9ad478d39ab29c1d4b667c004b4391cec45292 # v. 3.7.1
+    additional steps:
+    - database update
 - CategoryTree:
     bundled: true
 - CharInsert:
     commit: ee7b17910ece1ebaf6ad53857926d797b0ff374d
 - CheckUser:
     commit: 1de925985d764b50f80c08bd473a23312435bdae
+    additional steps:
+    - database update
 - CirrusSearch:
     commit: 3461fc8daae0f1d8e555d1d1da21d6a76d836b3b
     additional steps:
@@ -57,10 +67,14 @@ extensions:
     commit: f5f15ade19be8d5f07518d335be9a7047b6b7437
 - CommentStreams:
     commit: 23e8579bcbd4e7263836f2105d15fa7ef431f98e
+    additional steps:
+    - database update
 - CommonsMetadata:
     commit: 133fd7511eff158456e194315e5f477166ef3206
 - ConfirmAccount:
     commit: dc1a1db096f4ecadfe178fccd26a1b7a854254ad
+    additional steps:
+    - database update
 - ConfirmEdit:
     bundled: true
 - ContactPage:
@@ -82,12 +96,16 @@ extensions:
     commit: 56a4738b35d331fe3d3f985b9e3d1c084ab75ed9
 - DiscussionTools:
     bundled: true
+    additional steps:
+    - database update
 - DismissableSiteNotice:
     commit: caca5bf6baaf5b85487a5b822e42c6ee74aa0e9d
 - DisplayTitle:
     commit: 920768a8efb9f316aed1f134fc07aa153d612eb7
 - Echo:
     bundled: true
+    additional steps:
+    - database update
 - EditAccount:
     commit: 19ef898ce9cecc34dfed190d2d8628bbeb863f89
 - Editcount:
@@ -100,6 +118,7 @@ extensions:
     commit: 69ca5f8dfa9217c542bfd34ee9736dc8e04d0903
     additional steps:
     - git submodule update
+    - database update
 - EmbedVideo:
     repository: https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
     commit: 947b1c8832f65ebcad9ce4c70f7696f55d06173b # v. 3.4.2
@@ -110,6 +129,8 @@ extensions:
 - ExternalData:
     branch: master
     commit: bee4371617089195e3885a3deef16c8fcb8de4fb
+    additional steps:
+    - database update
 - FlexDiagrams:
     branch: master
     commit: 183efb105deda9d228041b976cd36c50d3c63628 # v. 0.7
@@ -143,6 +164,8 @@ extensions:
     bundled: true
 - JWTAuth:
     commit: 4ee91b1d77fe0ad509a5c5665cbbb354856f0ab3
+    additional steps:
+    - database update
 - LabeledSectionTransclusion:
     commit: 68ef6ea74b39e37278eadd5ab9a1ac62bd85de82
 - LDAPAuthentication2:
@@ -151,6 +174,8 @@ extensions:
     commit: 05a9d007c24429cfee90337077c9d3276edc73ad
 - LDAPProvider:
     commit: c8a4cad128f7aa898c8660648a7da1aef571765d
+    additional steps:
+    - database update
 - Lingo:
     commit: 27893843b7529951deed9a3ef9fc25c778934eea
 - LinkSuggest:
@@ -159,6 +184,8 @@ extensions:
     commit: 83007f7c813204e769aecdfe15abf61cccb0c43b
 - Linter:
     bundled: true
+    additional steps:
+    - database update
 - LockAuthor:
     commit: 29fc3cad3e6b9c47c04161a03d758ff355ca5723
 - Lockdown:
@@ -184,8 +211,12 @@ extensions:
     - composer update
 - Math:
     bundled: true
+    additional steps:
+    - database update
 - MediaUploader:
     commit: b0f6d0f231891daee3da7fa39045640fa50fa4d2
+    additional steps:
+    - database update
 - Mermaid:
     repository: https://github.com/SemanticMediaWiki/Mermaid
     commit: fd792683fef3c84a7cdd56f8f474c4da0dd630f2 # v. 3.1.0
@@ -210,6 +241,7 @@ extensions:
     bundled: true
     additional steps:
     - composer update
+    - database update
 - OAuth:
     commit: 0d466bcb3c0146dedc44ac8dce2fea7f0d749f31
 - OpenGraphMeta:
@@ -218,9 +250,12 @@ extensions:
     commit: 5d9cdd7690ccbb3cac552fb85ff4a8742ee8b145
     additional steps:
     - composer update
+    - database update
 - PageExchange:
     branch: master
     commit: eaca8502623f3d80354cbe56571840b215f5ab67 # v. 0.8
+    additional steps:
+    - database update
 - PageForms:
     branch: master
     commit: c861c29cb0bc2a99f5b90cb009e99f828039f6d2 # v. 5.9.1
@@ -250,6 +285,8 @@ extensions:
 - RottenLinks:
     repository: https://github.com/miraheze/RottenLinks
     commit: a2019146ef7fad359ac0503bb885f651d90272cb # v. 2.1.0
+    additional steps:
+    - database update
 - SandboxLink:
     commit: 3eae08b2f34e84399e154cc78973c69d4f5c7811
 - SaveSpinner:
@@ -277,6 +314,7 @@ extensions:
     - config
     additional steps:
     - composer update
+    - database update
 - SemanticResultFormats:
     repository: https://github.com/SemanticMediaWiki/SemanticResultFormats
     commit: b40de8db8ef7a251e59f39abbe4d4e3b093203d2 # v. 5.0.0-alpha
@@ -300,8 +338,12 @@ extensions:
     commit: cd94d4684782457f81517d6f2692f3af300d9242
 - SmiteSpam:
     commit: 529ad28e2953506c7216c90abb7bd17f320fb0b5
+    additional steps:
+    - database update
 - SocialProfile:
     commit: 596821355ef2022171718f41a1109da01c6e3dbc
+    additional steps:
+    - database update
 - SpamBlacklist:
     bundled: true
 - SubPageList:
@@ -327,6 +369,7 @@ extensions:
     commit: b223fe9d63409696b54511777b1e3619b1a7673b
     additional steps:
     - composer update
+    - database update
 - TitleBlacklist:
     bundled: true
 - TitleIcon:
@@ -337,6 +380,8 @@ extensions:
     commit: 11c95712a05fd8feee7d148c5a2b882b92984bba
 - UploadWizard:
     commit: 0dd1f57172e82c18d7e8580c42eebe27c23e688a
+    additional steps:
+    - database update
 - UrlGetParameters:
     commit: 013427509ca51a710879c8811b6f4ef04d7b2e12
 - UserFunctions:
@@ -345,6 +390,8 @@ extensions:
     commit: f9d2664fd1af70a2b3a22a55b971c174593d38f1
 - UserPageViewTracker:
     commit: a3009ef62873535de56e18f62d629ca3494e9d77
+    additional steps:
+    - database update
 - Variables:
     commit: 81115fae09d0a219078d2a2511de83474fd2eb8f
 - VEForAll:
@@ -354,12 +401,18 @@ extensions:
     bundled: true
 - VoteNY:
     commit: d1d57da0ba7418c9e7f98b659a5fa2832d790c2d
+    additional steps:
+    - database update
 - WatchAnalytics:
     commit: 6bd9c6e5a1c056280e01e423aea679faf4bb0bd0
+    additional steps:
+    - database update
 - WhoIsWatching:
     commit: ad0d721ab588c77678a33db304a77bd684724a1a
 - WhosOnline:
     commit: e072d08f58ea013a40f27dd95ef1eef8bca364c2
+    additional steps:
+    - database update
 - Widgets:
     commit: 50da5c66923ec5169f5606cc1d76f38f0b759d71
     persistent directories:
@@ -374,6 +427,7 @@ extensions:
     commit: 9f25fade2bcd3fae44c3236072f5ea2eb068b75c
     additional steps:
     - composer update
+    - database update
 skins:
 - chameleon:
     repository: https://github.com/ProfessionalWiki/chameleon
