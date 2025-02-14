@@ -19,7 +19,7 @@ extensions:
     - database update
 - ApprovedRevs:
     branch: master
-    commit: 3bd3e148da3bbfcea0ffd10ed18c8671263fb77b # v. 2.1.1
+    commit: a4297c6fadc576cd4f7b0afa2bcc2d69c65a4bb1 # v. 2.1.2
     additional steps:
     - database update
 - Arrays:
@@ -309,7 +309,7 @@ extensions:
     commit: 12c89b9c4fe024dabe294fabdef0138a09f24365 # v. 3.0.5
 - SemanticMediaWiki:
     repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
-    commit: f22f7fb06a808af1beb303090663c494c7f315c2 # 5.0.0-alpha
+    commit: 32ef4b9a423b3592ce98d54a5ad0e30d92c09abc # 5.0.0-alpha
     persistent directories:
     - config
     additional steps:
