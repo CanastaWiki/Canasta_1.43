@@ -152,7 +152,8 @@ extensions:
 - HeaderTabs:
     commit: bcb060829c5d643e746921641ea5dbd5a84f35f4
 - HTMLTags:
-    commit: 3dc5caa3d586756f39abfef49053136267eb68ef
+    branch: master
+    commit: 3903111e4c1075e0f24695d8ee57aecf8d5cb4a8 # v. 0.4
 - ImageMap:
     bundled: true
 - InlineComments:
