@@ -259,7 +259,7 @@ extensions:
     - database update
 - PageForms:
     branch: master
-    commit: c861c29cb0bc2a99f5b90cb009e99f828039f6d2 # v. 5.9.1
+    commit: 778c28f7ad2e11e8cf036fa2d6dad52b7b173559 # v. 5.9.1
 - PageImages:
     bundled: true
 - PageSchemas:
