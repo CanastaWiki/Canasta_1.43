@@ -298,19 +298,19 @@ extensions:
     bundled: true
 - SemanticCompoundQueries:
     repository: https://github.com/SemanticMediaWiki/SemanticCompoundQueries
-    commit: bc0240ed27db8455452bd6fa161ff62d032238f6 # v. 3.0.0-beta
+    commit: 37872efe470a01294da9afeb4b109173665169f5 # v. 3.0.0-beta
 - SemanticDependencyUpdater:
     repository: https://github.com/gesinn-it/SemanticDependencyUpdater
-    commit: b2c4db817bfb31c2ad10d27aeebb955f938d7b4f # v. 3.0.3
+    commit: 28a86f1f7267c86f7fb8200f31ec6d690745a669 # v. 4.0.0
 - SemanticDrilldown:
     repository: https://github.com/SemanticMediaWiki/SemanticDrilldown
-    commit: ac5917cd87dc776b39342ce90791a42f4ca7dc2a # v. 4.0.0-beta3
+    commit: 3f74e3f15cd53bcb2dc0027099e4a2edd7158f02 # v. 4.0.0-beta4
 - SemanticExtraSpecialProperties:
     repository: https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties
-    commit: 12c89b9c4fe024dabe294fabdef0138a09f24365 # v. 3.0.5
+    commit: f7616bdb48210e75903392a784e91d955caa76a5 # v. 4.0.0
 - SemanticMediaWiki:
     repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
-    commit: 32ef4b9a423b3592ce98d54a5ad0e30d92c09abc # 5.0.0-alpha
+    commit: 1ac4a73db352bb6c13441601bf9b0d55a5d8169f # v. 5.0.0
     persistent directories:
     - config
     additional steps:
@@ -318,15 +318,15 @@ extensions:
     - database update
 - SemanticResultFormats:
     repository: https://github.com/SemanticMediaWiki/SemanticResultFormats
-    commit: b40de8db8ef7a251e59f39abbe4d4e3b093203d2 # v. 5.0.0-alpha
+    commit: 02c08ce0098a185277c817e950c8074695f6cd45 # v. 5.0.0-alpha
     additional steps:
     - composer update
 - SemanticScribunto:
     repository: https://github.com/SemanticMediaWiki/SemanticScribunto
-    commit: https://github.com/SemanticMediaWiki/SemanticScribunto # v. 2.3.2
+    commit: 9bf8857c4c199acd589f836b4b7c454e708d99ee # v. 2.3.2
 - SemanticWatchlist:
     repository: https://github.com/SemanticMediaWiki/SemanticWatchlist
-    commit: 4a1ac9d79b0c00bd1fda0567cbe57a18804e54aa # v. 1.4.0-beta
+    commit: 67b2df20249f4c02103e6b8ecbd65ecc49780eb3 # v. 1.4.0-beta
 - SimpleBatchUpload:
     repository: https://github.com/ProfessionalWiki/SimpleBatchUpload
     commit: 1e53b5b50e7fbc6c96c749bfdf3b807f62836c30 # v. 2.0.1
