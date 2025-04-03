@@ -98,7 +98,7 @@ extensions:
     bundled: true
     additional steps:
     - database update
-    requires extension:
+    required extensions:
     - VisualEditor
 - DismissableSiteNotice:
     commit: caca5bf6baaf5b85487a5b822e42c6ee74aa0e9d
@@ -121,7 +121,7 @@ extensions:
     additional steps:
     - git submodule update
     - database update
-    requires extension:
+    required extensions:
     - PluggableAuth
 - EmbedVideo:
     repository: https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
@@ -171,7 +171,7 @@ extensions:
     commit: 4ee91b1d77fe0ad509a5c5665cbbb354856f0ab3
     additional steps:
     - database update
-    requires extension:
+    required extensions:
     - PluggableAuth
 - LabeledSectionTransclusion:
     commit: 68ef6ea74b39e37278eadd5ab9a1ac62bd85de82
@@ -258,7 +258,7 @@ extensions:
     additional steps:
     - composer update
     - database update
-    requires extension:
+    required extensions:
     - PluggableAuth
 - PageExchange:
     branch: master
@@ -432,7 +432,7 @@ extensions:
     additional steps:
     - composer update
     - database update
-    requires extension:
+    required extensions:
     - PluggableAuth
 skins:
 - chameleon:
