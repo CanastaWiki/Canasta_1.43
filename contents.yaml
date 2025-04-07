@@ -98,6 +98,8 @@ extensions:
     bundled: true
     additional steps:
     - database update
+    required extensions:
+    - VisualEditor
 - DismissableSiteNotice:
     commit: caca5bf6baaf5b85487a5b822e42c6ee74aa0e9d
 - DisplayTitle:
@@ -119,6 +121,8 @@ extensions:
     additional steps:
     - git submodule update
     - database update
+    required extensions:
+    - PluggableAuth
 - EmbedVideo:
     repository: https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
     commit: 947b1c8832f65ebcad9ce4c70f7696f55d06173b # v. 3.4.2
@@ -167,6 +171,8 @@ extensions:
     commit: 4ee91b1d77fe0ad509a5c5665cbbb354856f0ab3
     additional steps:
     - database update
+    required extensions:
+    - PluggableAuth
 - LabeledSectionTransclusion:
     commit: 68ef6ea74b39e37278eadd5ab9a1ac62bd85de82
 - LDAPAuthentication2:
@@ -252,6 +258,8 @@ extensions:
     additional steps:
     - composer update
     - database update
+    required extensions:
+    - PluggableAuth
 - PageExchange:
     branch: master
     commit: eaca8502623f3d80354cbe56571840b215f5ab67 # v. 0.8
@@ -315,7 +323,6 @@ extensions:
     - config
     additional steps:
     - composer update
-    - database update
 - SemanticResultFormats:
     repository: https://github.com/SemanticMediaWiki/SemanticResultFormats
     commit: 02c08ce0098a185277c817e950c8074695f6cd45 # v. 5.0.0-alpha
@@ -343,8 +350,6 @@ extensions:
     - database update
 - SocialProfile:
     commit: 596821355ef2022171718f41a1109da01c6e3dbc
-    additional steps:
-    - database update
 - SpamBlacklist:
     bundled: true
 - SubPageList:
@@ -381,8 +386,6 @@ extensions:
     commit: 11c95712a05fd8feee7d148c5a2b882b92984bba
 - UploadWizard:
     commit: 0dd1f57172e82c18d7e8580c42eebe27c23e688a
-    additional steps:
-    - database update
 - UrlGetParameters:
     commit: 013427509ca51a710879c8811b6f4ef04d7b2e12
 - UserFunctions:
@@ -429,6 +432,8 @@ extensions:
     additional steps:
     - composer update
     - database update
+    required extensions:
+    - PluggableAuth
 skins:
 - chameleon:
     repository: https://github.com/ProfessionalWiki/chameleon
