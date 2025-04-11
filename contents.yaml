@@ -27,6 +27,8 @@ extensions:
 - AWS:
     repository: https://github.com/edwardspec/mediawiki-aws-s3
     commit: f85bb579b57f22175ff0cbca7664ad26cacdbb58 # v. 0.13.1
+    additional steps:
+    - composer update
 - BetaFeatures:
     commit: b6d1cdf01dea38eabc69f55ae1d1ccb851080750
     additional steps:
