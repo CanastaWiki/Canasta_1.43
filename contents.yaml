@@ -19,7 +19,7 @@ extensions:
     - database update
 - ApprovedRevs:
     branch: master
-    commit: a4297c6fadc576cd4f7b0afa2bcc2d69c65a4bb1 # v. 2.1.2
+    commit: 315be5c2e02e6dd598cfa88507f6a6659433f009 # v. 2.2
     additional steps:
     - database update
 - Arrays:
@@ -42,7 +42,7 @@ extensions:
     commit: 28e82570da8d7e9e8a422a9a3f55392cf6166e0f
 - Cargo:
     branch: master
-    commit: ca9ad478d39ab29c1d4b667c004b4391cec45292 # v. 3.7.1
+    commit: 0b7145b67fbdf356105e571f32ad759404ce69b1 # v. 3.8
     additional steps:
     - database update
 - CategoryTree:
@@ -87,7 +87,7 @@ extensions:
     commit: f697459d94ac1aa8c9d3e417a9b0e04f92640447
 - DataTransfer:
     branch: master
-    commit: 2693332aeb146681e54bb1131a3330235f14f742 # v. 1.6.2
+    commit: 8ffc202389decbe6c0fe2f974ecf7e7283db7a97 # v. 1.7
     additional steps:
     - composer update
 - DeleteBatch:
@@ -269,7 +269,7 @@ extensions:
     - database update
 - PageForms:
     branch: master
-    commit: 778c28f7ad2e11e8cf036fa2d6dad52b7b173559 # v. 5.9.1
+    commit: 35099cf9fab298ceb5fbc51ed2c721eae2728406 # v. 6.0
 - PageImages:
     bundled: true
 - PageSchemas:
@@ -320,14 +320,14 @@ extensions:
     commit: f7616bdb48210e75903392a784e91d955caa76a5 # v. 4.0.0
 - SemanticMediaWiki:
     repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
-    commit: 1ac4a73db352bb6c13441601bf9b0d55a5d8169f # v. 5.0.0
+    commit: e94f0b3d0936b7c858b37de269411b94755f5183 # v. 5.0.1
     persistent directories:
     - config
     additional steps:
     - composer update
 - SemanticResultFormats:
     repository: https://github.com/SemanticMediaWiki/SemanticResultFormats
-    commit: 02c08ce0098a185277c817e950c8074695f6cd45 # v. 5.0.0-alpha
+    commit: 36bed50f3df91e92fd0823245547a1525a3f3d0d # v. 5.0.0
     additional steps:
     - composer update
 - SemanticScribunto:
