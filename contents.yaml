@@ -19,7 +19,7 @@ extensions:
     - database update
 - ApprovedRevs:
     branch: master
-    commit: 315be5c2e02e6dd598cfa88507f6a6659433f009 # v. 2.2
+    commit: 91ef5b94e173e1e5caa2b8e6d698f7db6ee6ad15 # v. 2.2.1
     additional steps:
     - database update
 - Arrays:
