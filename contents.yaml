@@ -319,6 +319,8 @@ extensions:
     repository: https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties
     commit: f7616bdb48210e75903392a784e91d955caa76a5 # v. 4.0.0
 - SemanticMediaWiki:
+    composer-name: mediawiki/semantic-media-wiki
+    composer-version: 5.0.1
     repository: https://github.com/SemanticMediaWiki/SemanticMediaWiki
     commit: e94f0b3d0936b7c858b37de269411b94755f5183 # v. 5.0.1
     persistent directories:
